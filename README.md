@@ -94,67 +94,178 @@ A collection of awesome Cycle.js tools, resources, videos and shiny things.
 
 ### Drivers
 
+#### Virtual DOM
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cycle-dom](https://github.com/cyclejs/dom)|[![Dependency Status](https://david-dm.org/cyclejs/dom.svg)](https://github.com/cyclejs/cyclejs/tree/master/dom)|[![devDependency Status](https://david-dm.org/cyclejs/dom/dev-status.svg)](https://david-dm.org/cyclejs/dom?info=devDependencies)|The standard DOM Driver for Cycle.js (core)|162 ★  |
+|[cycle-snabbdom](https://github.com/TylorS/cycle-snabbdom)|[![Dependency Status](https://david-dm.org/TylorS/cycle-snabbdom.svg)](https://david-dm.org/TylorS/cycle-snabbdom)|[![devDependency Status](https://david-dm.org/TylorS/cycle-snabbdom/dev-status.svg)](https://david-dm.org/TylorS/cycle-snabbdom?info=devDependencies)|DOM driver using Snabbdom (jun 2016)|42 ★|
+
+#### Browser APIs
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cycle-history](https://github.com/cyclejs/history)|[![Dependency Status](https://david-dm.org/cyclejs/history.svg)](https://github.com/cyclejs/cyclejs/tree/master/history)|[![devDependency Status](https://david-dm.org/cyclejs/history/dev-status.svg)](https://david-dm.org/cyclejs/history?info=devDependencies)|The standard Cycle driver for dealing with the [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API) (sep 2016)|62 ★|
+|[cyclejs-cookie](https://github.com/10clouds/cyclejs-cookie)|[![Dependency Status](https://david-dm.org/10clouds/cyclejs-cookie.svg)](https://david-dm.org/10clouds/cyclejs-cookie)|[![devDependency Status](https://david-dm.org/10clouds/cyclejs-cookie/dev-status.svg)](https://david-dm.org/10clouds/cyclejs-cookie?info=devDependencies)|Cookies Driver for Cycle.js (aug 2016)|1 ★|
+
+#### User Interaction (UX)
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cycle-keys](https://github.com/raquelxmoss/cycle-keys)|[![Dependency Status](https://david-dm.org/raquelxmoss/cycle-keys.svg)](https://david-dm.org/raquelxmoss/cycle-keys)|[![devDependency Status](https://david-dm.org/raquelxmoss/cycle-keys/dev-status.svg)](https://david-dm.org/raquelxmoss/cycle-keys?info=devDependencies)|Driver for keyboard events (sep 2016)|26 ★|
+|[cycle-keyboard](https://github.com/cyclejs-community/cycle-keyboard)|[![Dependency Status](https://david-dm.org/cyclejs-community/cycle-keyboard.svg)](https://david-dm.org/cyclejs-community/cycle-keyboard)|[![devDependency Status](https://david-dm.org/cyclejs-community/cycle-keyboard/dev-status.svg)](https://david-dm.org/cyclejs-community/cycle-keyboard?info=devDependencies)|A keyboard driver for cycle.js (dec 2016)|1 ★|
+|[cycle-hammer-driver](https://github.com/CyclicMaterials/cycle-hammer-driver)|[![Dependency Status](https://david-dm.org/CyclicMaterials/cycle-hammer-driver.svg)](https://david-dm.org/CyclicMaterials/cycle-hammer-driver)|[![devDependency Status](https://david-dm.org/CyclicMaterials/cycle-hammer-driver/dev-status.svg)](https://david-dm.org/CyclicMaterials/cycle-hammer-driver?info=devDependencies)|A Cycle.js driver to wrap Hammer.js and detect touch gestures (nov 2015)|10 ★|
+|[cycle-audio-graph](https://github.com/benji6/cycle-audio-graph)|[![Dependency Status](https://david-dm.org/benji6/cycle-audio-graph.svg)](https://david-dm.org/benji6/cycle-audio-graph)|[![devDependency Status](https://david-dm.org/benji6/cycle-audio-graph/dev-status.svg)](https://david-dm.org/benji6/cycle-audio-graph?info=devDependencies)|A Cycle.js Driver for manipulating the Web Audio API using (apr 2016)[virtual-audio-graph](https://github.com/benji6/virtual-audio-graph)|11 ★|
+
+#### Animation/UI
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cycle-animation-driver](https://github.com/Widdershin/cycle-animation-driver)|[![Dependency Status](https://david-dm.org/Widdershin/cycle-animation-driver.svg)](https://david-dm.org/Widdershin/cycle-animation-driver)|[![devDependency Status](https://david-dm.org/Widdershin/cycle-animation-driver/dev-status.svg)](https://david-dm.org/Widdershin/cycle-animation-driver?info=devDependencies)|Cycle driver for requestAnimationFrame (oct 2016)|25 ★|
+
+#### Routers
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cyclic-router](https://github.com/cyclejs-community/cyclic-router)|[![Dependency Status](https://david-dm.org/cyclejs-community/cyclic-router.svg)](https://david-dm.org/cyclejs-community/cyclic-router)|[![devDependency Status](https://david-dm.org/cyclejs-community/cyclic-router/dev-status.svg)](https://david-dm.org/cyclejs-community/cyclic-router?info=devDependencies)|Router Driver built for Cycle.js (apr 2016)|43 ★|
+|[cycle-page](https://github.com/garrydzeng/cycle-page)|[![Dependency Status](https://david-dm.org/garrydzeng/cycle-page.svg)](https://david-dm.org/garrydzeng/cycle-page)|[![devDependency Status](https://david-dm.org/garrydzeng/cycle-page/dev-status.svg)](https://david-dm.org/garrydzeng/cycle-page?info=devDependencies)|A tiny client-side router for Cycle.js (fresh)|3 ★|
+|[cycle-router5](https://github.com/axefrog/cycle-router5)|[![Dependency Status](https://david-dm.org/axefrog/cycle-router5.svg)](https://david-dm.org/axefrog/cycle-router5)|[![devDependency Status](https://david-dm.org/axefrog/cycle-router5/dev-status.svg)](https://david-dm.org/axefrog/cycle-router5?info=devDependencies)|A router driver using Router5 (sep 2015)|28 ★|
+
+#### Storage
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cycle-storage](https://github.com/cyclejs/storage)       |[![Dependency Status](https://david-dm.org/cyclejs/storage.svg)](https://david-dm.org/cyclejs/storage)|[![devDependency Status](https://david-dm.org/cyclejs/storage/dev-status.svg)](https://david-dm.org/cyclejs/storage?info=devDependencies)|A Cycle.js Driver for using localStorage and sessionStorage. (fresh)|21 ★|
+|[cyclejs-animated-localstorage](https://github.com/rkrupinski/cyclejs-animated-localstorage)|[![Dependency Status](https://david-dm.org/rkrupinski/cyclejs-animated-localstorage.svg)](https://david-dm.org/rkrupinski/cyclejs-animated-localstorage)|[![devDependency Status](https://david-dm.org/rkrupinski/cyclejs-animated-localstorage/dev-status.svg)](https://david-dm.org/rkrupinski/cyclejs-animated-localstorage?info=devDependencies)|A Cycle.js driver for animating (srsly) localStorage. (jun 2016)|4 ★|
+|[cycle-gun](https://github.com/JuniperChicago/cycle-gun)|[![Dependency Status](https://david-dm.org/JuniperChicago/cycle-gun.svg)](https://david-dm.org/JuniperChicago/cycle-gun)|[![devDependency Status](https://david-dm.org/JuniperChicago/cycle-gun/dev-status.svg)](https://david-dm.org/JuniperChicago/cycle-gun?info=devDependencies)|A basic Cycle.js driver wrapping a gun.js instance allowing graph storage and p2p sync. (fresh)|12  ★|
+|[cycle-deepstream](https://github.com/EnigmaCurry/cycle-deepstream)|[![Dependency Status](https://david-dm.org/EnigmaCurry/cycle-deepstream.svg)](https://david-dm.org/EnigmaCurry/cycle-deepstream)|[![devDependency Status](https://david-dm.org/EnigmaCurry/cycle-deepstream/dev-status.svg)](https://david-dm.org/EnigmaCurry/cycle-deepstream?info=devDependencies)|A Cycle.js driver for [deepstream.io](https://deepstream.io) (fresh)|3 ★|
+|[cycle-firebase](https://github.com/dralletje/cycle-firebase)|[![Dependency Status](https://david-dm.org/dralletje/cycle-firebase.svg)](https://david-dm.org/dralletje/cycle-firebase)|[![devDependency Status](https://david-dm.org/dralletje/cycle-firebase/dev-status.svg)](https://david-dm.org/dralletje/cycle-firebase?info=devDependencies)|A Cycle.js Driver for Firebase (mar 2016)|17 ★|
+
+#### Communication/protocols
+
+Drivers to work with external communication protocols (HTTP, Sockets etc.)
+
+##### Sync (Request/Response) protocols
+
 | Name | Dependencies  | DevDependencies | Description | ★ |
 |------|-------------- |-----------------|-------------|---|
 |[cycle-http](https://github.com/cyclejs/cyclejs/tree/master/http) |[![Dependency Status](https://david-dm.org/cyclejs/cyclejs/tree/master/http.svg)](https://david-dm.org/cyclejs/cyclejs/tree/master/http)|[![devDependency Status](https://david-dm.org/cyclejs/cyclejs/tree/master/http/dev-status.svg)](https://david-dm.org/cyclejs/cyclejs/tree/master/http?info=devDependencies)|A Cycle.js Driver for making HTTP requests, based on superagent. (core)|58 ★|
-|[cycle-storage](https://github.com/cyclejs/storage)       |[![Dependency Status](https://david-dm.org/cyclejs/storage.svg)](https://david-dm.org/cyclejs/storage)|[![devDependency Status](https://david-dm.org/cyclejs/storage/dev-status.svg)](https://david-dm.org/cyclejs/storage?info=devDependencies)|A Cycle.js Driver for using localStorage and sessionStorage. (fresh)|21 ★|
-|[cycle-notification-driver](https://github.com/cyclejs/cycle-notification-driver)|[![Dependency Status](https://david-dm.org/cyclejs/cycle-notification-driver.svg)](https://david-dm.org/cyclejs/cycle-notification-driver)|[![devDependency Status](https://david-dm.org/cyclejs/cycle-notification-driver/dev-status.svg)](https://david-dm.org/cyclejs/cycle-notification-driver?info=devDependencies)|A Cycle.js Driver for showing and responding to HTML5 Notifications. (mar 2016)|18 ★|
-|[cycle-router5](https://github.com/axefrog/cycle-router5)|[![Dependency Status](https://david-dm.org/axefrog/cycle-router5.svg)](https://david-dm.org/axefrog/cycle-router5)|[![devDependency Status](https://david-dm.org/axefrog/cycle-router5/dev-status.svg)](https://david-dm.org/axefrog/cycle-router5?info=devDependencies)|A router driver using Router5 (sep 2015)|28 ★|
-|[cycle-socket.io](https://github.com/cgeorg/cycle-socket.io)|[![Dependency Status](https://david-dm.org/cgeorg/cycle-socket.io.svg)](https://david-dm.org/cgeorg/cycle-socket.io)|[![devDependency Status](https://david-dm.org/cgeorg/cycle-socket.io/dev-status.svg)](https://david-dm.org/cgeorg/cycle-socket.io?info=devDependencies)|A Cycle driver for Socket.IO clients (oct 2016)|16 ★|
-|[cycle-dom](https://github.com/cyclejs/dom)|[![Dependency Status](https://david-dm.org/cyclejs/dom.svg)](https://github.com/cyclejs/cyclejs/tree/master/dom)|[![devDependency Status](https://david-dm.org/cyclejs/dom/dev-status.svg)](https://david-dm.org/cyclejs/dom?info=devDependencies)|The standard DOM Driver for Cycle.js (core)|162 ★  |
 |[cycle-fetch-driver](https://github.com/secobarbital/cycle-fetch-driver)|[![Dependency Status](https://david-dm.org/secobarbital/cycle-fetch-driver.svg)](https://david-dm.org/secobarbital/cycle-fetch-driver)|[![devDependency Status](https://david-dm.org/secobarbital/cycle-fetch-driver/dev-status.svg)](https://david-dm.org/secobarbital/cycle-fetch-driver?info=devDependencies)|A Cycle.js Driver for making HTTP requests, using the Fetch API. (oct 2015)|2 ★|
 |[cycle-fetcher-driver](https://github.com/r7kamura/cycle-fetcher-driver)|[![Dependency Status](https://david-dm.org/r7kamura/cycle-fetcher-driver.svg)](https://david-dm.org/r7kamura/cycle-fetcher-driver)|[![devDependency Status](https://david-dm.org/r7kamura/cycle-fetcher-driver/dev-status.svg)](https://david-dm.org/r7kamura/cycle-fetcher-driver?info=devDependencies)|A Cycle.js Driver for making HTTP requests using (oct 2015)[stackable-fetcher](https://github.com/r7kamura/stackable-fetcher).|13 ★|
-|[cycle-history](https://github.com/cyclejs/history)|[![Dependency Status](https://david-dm.org/cyclejs/history.svg)](https://github.com/cyclejs/cyclejs/tree/master/history)|[![devDependency Status](https://david-dm.org/cyclejs/history/dev-status.svg)](https://david-dm.org/cyclejs/history?info=devDependencies)|The standard Cycle driver for dealing with the [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API) (sep 2016)|62 ★|
-|[cycle-audio-graph](https://github.com/benji6/cycle-audio-graph)|[![Dependency Status](https://david-dm.org/benji6/cycle-audio-graph.svg)](https://david-dm.org/benji6/cycle-audio-graph)|[![devDependency Status](https://david-dm.org/benji6/cycle-audio-graph/dev-status.svg)](https://david-dm.org/benji6/cycle-audio-graph?info=devDependencies)|A Cycle.js Driver for manipulating the Web Audio API using (apr 2016)[virtual-audio-graph](https://github.com/benji6/virtual-audio-graph)|11 ★|
-|[cycle-hammer-driver](https://github.com/CyclicMaterials/cycle-hammer-driver)|[![Dependency Status](https://david-dm.org/CyclicMaterials/cycle-hammer-driver.svg)](https://david-dm.org/CyclicMaterials/cycle-hammer-driver)|[![devDependency Status](https://david-dm.org/CyclicMaterials/cycle-hammer-driver/dev-status.svg)](https://david-dm.org/CyclicMaterials/cycle-hammer-driver?info=devDependencies)|A Cycle.js driver to wrap Hammer.js and detect touch gestures (nov 2015)|10 ★|
-|[cycle-sse-driver](https://github.com/jessaustin/cycle-sse-driver)|[![Dependency Status](https://david-dm.org/jessaustin/cycle-sse-driver.svg)](https://david-dm.org/jessaustin/cycle-sse-driver)|[![devDependency Status](https://david-dm.org/jessaustin/cycle-sse-driver/dev-status.svg)](https://david-dm.org/jessaustin/cycle-sse-driver?info=devDependencies)|Source driver for Server-Sent Events/EventSource. (jan 2016)|5 ★|
-|[cycle-snabbdom](https://github.com/TylorS/cycle-snabbdom)|[![Dependency Status](https://david-dm.org/TylorS/cycle-snabbdom.svg)](https://david-dm.org/TylorS/cycle-snabbdom)|[![devDependency Status](https://david-dm.org/TylorS/cycle-snabbdom/dev-status.svg)](https://david-dm.org/TylorS/cycle-snabbdom?info=devDependencies)|DOM driver using Snabbdom (jun 2016)|42 ★|
-|[cyclic-router](https://github.com/cyclejs-community/cyclic-router)|[![Dependency Status](https://david-dm.org/cyclejs-community/cyclic-router.svg)](https://david-dm.org/cyclejs-community/cyclic-router)|[![devDependency Status](https://david-dm.org/cyclejs-community/cyclic-router/dev-status.svg)](https://david-dm.org/cyclejs-community/cyclic-router?info=devDependencies)|Router Driver built for Cycle.js (apr 2016)|43 ★|
-|[cycle-animation-driver](https://github.com/Widdershin/cycle-animation-driver)|[![Dependency Status](https://david-dm.org/Widdershin/cycle-animation-driver.svg)](https://david-dm.org/Widdershin/cycle-animation-driver)|[![devDependency Status](https://david-dm.org/Widdershin/cycle-animation-driver/dev-status.svg)](https://david-dm.org/Widdershin/cycle-animation-driver?info=devDependencies)|Cycle driver for requestAnimationFrame (oct 2016)|25 ★|
-|[cycle-firebase](https://github.com/dralletje/cycle-firebase)|[![Dependency Status](https://david-dm.org/dralletje/cycle-firebase.svg)](https://david-dm.org/dralletje/cycle-firebase)|[![devDependency Status](https://david-dm.org/dralletje/cycle-firebase/dev-status.svg)](https://david-dm.org/dralletje/cycle-firebase?info=devDependencies)|A Cycle.js Driver for Firebase (mar 2016)|17 ★|
-|[cycle-blessed](https://github.com/edge/cycle-blessed)|[![Dependency Status](https://david-dm.org/edge/cycle-blessed.svg)](https://david-dm.org/edge/cycle-blessed)|[![devDependency Status](https://david-dm.org/edge/cycle-blessed/dev-status.svg)](https://david-dm.org/edge/cycle-blessed?info=devDependencies)|A Cycle.js Driver for terminal applications (may 2016)|35 ★|
-|[cyclejs-cookie](https://github.com/10clouds/cyclejs-cookie)|[![Dependency Status](https://david-dm.org/10clouds/cyclejs-cookie.svg)](https://david-dm.org/10clouds/cyclejs-cookie)|[![devDependency Status](https://david-dm.org/10clouds/cyclejs-cookie/dev-status.svg)](https://david-dm.org/10clouds/cyclejs-cookie?info=devDependencies)|Cookies Driver for Cycle.js (aug 2016)|1 ★|
-|[cycle-async-driver](https://github.com/whitecolor/cycle-async-driver)|[![Dependency Status](https://david-dm.org/whitecolor/cycle-async-driver.svg)](https://david-dm.org/whitecolor/cycle-async-driver)|[![devDependency Status](https://david-dm.org/whitecolor/cycle-async-driver/dev-status.svg)](https://david-dm.org/whitecolor/cycle-async-driver?info=devDependencies)|Factory for creating async request/response cycle.js drivers (aug 2016)|15 ★|
-|[cycle-keys](https://github.com/raquelxmoss/cycle-keys)|[![Dependency Status](https://david-dm.org/raquelxmoss/cycle-keys.svg)](https://david-dm.org/raquelxmoss/cycle-keys)|[![devDependency Status](https://david-dm.org/raquelxmoss/cycle-keys/dev-status.svg)](https://david-dm.org/raquelxmoss/cycle-keys?info=devDependencies)|Driver for keyboard events (sep 2016)|26 ★|
-|[recyclec](https://github.com/rektide/recyclec)|[![Dependency Status](https://david-dm.org/rektide/recyclec.svg)](https://david-dm.org/rektide/recyclec)|[![devDependency Status](https://david-dm.org/rektide/recyclec/dev-status.svg)](https://david-dm.org/rektide/recyclec?info=devDependencies)|Readline driver (feb 2016)|0 ★|
-|[cycle-telegram](https://github.com/goodmind/cycle-telegram)|[![Dependency Status](https://david-dm.org/goodmind/cycle-telegram.svg)](https://david-dm.org/goodmind/cycle-telegram)|[![devDependency Status](https://david-dm.org/goodmind/cycle-telegram/dev-status.svg)](https://david-dm.org/goodmind/cycle-telegram?info=devDependencies)|A Cycle.js Driver for Telegram Bot API (nov 2016)|13 ★|
-|[cycle-electron-driver](https://github.com/apoco/cycle-electron-driver)|[![Dependency Status](https://david-dm.org/apoco/cycle-electron-driver.svg)](https://david-dm.org/apoco/cycle-electron-driver)|[![devDependency Status](https://david-dm.org/apoco/cycle-electron-driver/dev-status.svg)](https://david-dm.org/apoco/cycle-electron-driver?info=devDependencies)|Driver to interact with Electron interface from Cycle.js application (mar 2016)|14 ★|
-|[cyclejs-animated-localstorage](https://github.com/rkrupinski/cyclejs-animated-localstorage)|[![Dependency Status](https://david-dm.org/rkrupinski/cyclejs-animated-localstorage.svg)](https://david-dm.org/rkrupinski/cyclejs-animated-localstorage)|[![devDependency Status](https://david-dm.org/rkrupinski/cyclejs-animated-localstorage/dev-status.svg)](https://david-dm.org/rkrupinski/cyclejs-animated-localstorage?info=devDependencies)|A Cycle.js driver for animating (srsly) localStorage. (jun 2016)|4 ★|
-|[cycle-keyboard](https://github.com/cyclejs-community/cycle-keyboard)|[![Dependency Status](https://david-dm.org/cyclejs-community/cycle-keyboard.svg)](https://david-dm.org/cyclejs-community/cycle-keyboard)|[![devDependency Status](https://david-dm.org/cyclejs-community/cycle-keyboard/dev-status.svg)](https://david-dm.org/cyclejs-community/cycle-keyboard?info=devDependencies)|A keyboard driver for cycle.js (dec 2016)|1 ★|
-|[cycle-page](https://github.com/garrydzeng/cycle-page)|[![Dependency Status](https://david-dm.org/garrydzeng/cycle-page.svg)](https://david-dm.org/garrydzeng/cycle-page)|[![devDependency Status](https://david-dm.org/garrydzeng/cycle-page/dev-status.svg)](https://david-dm.org/garrydzeng/cycle-page?info=devDependencies)|A tiny client-side router for Cycle.js (fresh)|3 ★|
+
+##### Async protocols
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cycle-socket.io](https://github.com/cgeorg/cycle-socket.io)|[![Dependency Status](https://david-dm.org/cgeorg/cycle-socket.io.svg)](https://david-dm.org/cgeorg/cycle-socket.io)|[![devDependency Status](https://david-dm.org/cgeorg/cycle-socket.io/dev-status.svg)](https://david-dm.org/cgeorg/cycle-socket.io?info=devDependencies)|A Cycle driver for Socket.IO clients (oct 2016)|16 ★|
 |[cycle-socketcluster](https://github.com/jbowden1982/cycle-socketcluster)|[![Dependency Status](https://david-dm.org/jbowden1982/cycle-socketcluster.svg)](https://david-dm.org/jbowden1982/cycle-socketcluster)|[![devDependency Status](https://david-dm.org/jbowden1982/cycle-socketcluster/dev-status.svg)](https://david-dm.org/jbowden1982/cycle-socketcluster?info=devDependencies)|A socketcluster driver for Cycle.js (fresh)|3 ★|
+|[cycle-async-driver](https://github.com/whitecolor/cycle-async-driver)|[![Dependency Status](https://david-dm.org/whitecolor/cycle-async-driver.svg)](https://david-dm.org/whitecolor/cycle-async-driver)|[![devDependency Status](https://david-dm.org/whitecolor/cycle-async-driver/dev-status.svg)](https://david-dm.org/whitecolor/cycle-async-driver?info=devDependencies)|Factory for creating async request/response cycle.js drivers (aug 2016)|15 ★|
+
+##### Push notifications
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cycle-notification-driver](https://github.com/cyclejs/cycle-notification-driver)|[![Dependency Status](https://david-dm.org/cyclejs/cycle-notification-driver.svg)](https://david-dm.org/cyclejs/cycle-notification-driver)|[![devDependency Status](https://david-dm.org/cyclejs/cycle-notification-driver/dev-status.svg)](https://david-dm.org/cyclejs/cycle-notification-driver?info=devDependencies)|A Cycle.js Driver for showing and responding to HTML5 Notifications. (mar 2016)|18 ★|
+|[cycle-sse-driver](https://github.com/jessaustin/cycle-sse-driver)|[![Dependency Status](https://david-dm.org/jessaustin/cycle-sse-driver.svg)](https://david-dm.org/jessaustin/cycle-sse-driver)|[![devDependency Status](https://david-dm.org/jessaustin/cycle-sse-driver/dev-status.svg)](https://david-dm.org/jessaustin/cycle-sse-driver?info=devDependencies)|Source driver for Server-Sent Events/EventSource. (jan 2016)|5 ★|
+
+
+#### Runtime Environments
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cycle-electron-driver](https://github.com/apoco/cycle-electron-driver)|[![Dependency Status](https://david-dm.org/apoco/cycle-electron-driver.svg)](https://david-dm.org/apoco/cycle-electron-driver)|[![devDependency Status](https://david-dm.org/apoco/cycle-electron-driver/dev-status.svg)](https://david-dm.org/apoco/cycle-electron-driver?info=devDependencies)|Driver to interact with Electron interface from Cycle.js application (mar 2016)|14 ★|
+|[cycle-blessed](https://github.com/edge/cycle-blessed)|[![Dependency Status](https://david-dm.org/edge/cycle-blessed.svg)](https://david-dm.org/edge/cycle-blessed)|[![devDependency Status](https://david-dm.org/edge/cycle-blessed/dev-status.svg)](https://david-dm.org/edge/cycle-blessed?info=devDependencies)|A Cycle.js Driver for terminal applications (may 2016)|35 ★|
+
+#### Web Frameworks
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
 |[redux-cycles](https://github.com/cyclejs-community/redux-cycles)|[![Dependency Status](https://david-dm.org/cyclejs-community/redux-cycles.svg)](https://david-dm.org/cyclejs-community/redux-cycles)|[![devDependency Status](https://david-dm.org/cyclejs-community/redux-cycles/dev-status.svg)](https://david-dm.org/cyclejs-community/redux-cycles?info=devDependencies)|A Redux middleware that allows you to handle actions lifecycle with Cycle.js (fresh)|30 ★|
-|[cycle-gun](https://github.com/JuniperChicago/cycle-gun)|[![Dependency Status](https://david-dm.org/JuniperChicago/cycle-gun.svg)](https://david-dm.org/JuniperChicago/cycle-gun)|[![devDependency Status](https://david-dm.org/JuniperChicago/cycle-gun/dev-status.svg)](https://david-dm.org/JuniperChicago/cycle-gun?info=devDependencies)|A basic Cycle.js driver wrapping a gun.js instance allowing graph storage and p2p sync. (fresh)|12  ★|
-|[cycle-deepstream](https://github.com/EnigmaCurry/cycle-deepstream)|[![Dependency Status](https://david-dm.org/EnigmaCurry/cycle-deepstream.svg)](https://david-dm.org/EnigmaCurry/cycle-deepstream)|[![devDependency Status](https://david-dm.org/EnigmaCurry/cycle-deepstream/dev-status.svg)](https://david-dm.org/EnigmaCurry/cycle-deepstream?info=devDependencies)|A Cycle.js driver for [deepstream.io](https://deepstream.io) (fresh)|3 ★|
+
+#### Operating System (OS)
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[recyclec](https://github.com/rektide/recyclec)|[![Dependency Status](https://david-dm.org/rektide/recyclec.svg)](https://david-dm.org/rektide/recyclec)|[![devDependency Status](https://david-dm.org/rektide/recyclec/dev-status.svg)](https://david-dm.org/rektide/recyclec?info=devDependencies)|Readline driver (feb 2016)|0 ★|
+
+#### Bots
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cycle-telegram](https://github.com/goodmind/cycle-telegram)|[![Dependency Status](https://david-dm.org/goodmind/cycle-telegram.svg)](https://david-dm.org/goodmind/cycle-telegram)|[![devDependency Status](https://david-dm.org/goodmind/cycle-telegram/dev-status.svg)](https://david-dm.org/goodmind/cycle-telegram?info=devDependencies)|A Cycle.js Driver for Telegram Bot API (nov 2016)|13 ★|
 
 ### Utilities
 
 | Name | Dependencies  | DevDependencies | Description | ★ |
 |------|-------------- |-----------------|-------------|---|
-|[chai-virtual-dom](https://github.com/staltz/chai-virtual-dom)|[![Dependency Status](https://david-dm.org/staltz/chai-virtual-dom.svg)](https://david-dm.org/staltz/chai-virtual-dom)|[![devDependency Status](https://david-dm.org/staltz/chai-virtual-dom/dev-status.svg)](https://david-dm.org/staltz/chai-virtual-dom?info=devDependencies)|Chai assertion helpers to test virtual-dom VTrees (sep 2015)|22 ★|
 |[sinject](https://github.com/cgeorg/sinject)|[![Dependency Status](https://david-dm.org/cgeorg/sinject.svg)](https://david-dm.org/cgeorg/sinject)|[![devDependency Status](https://david-dm.org/cgeorg/sinject/dev-status.svg)](https://david-dm.org/cgeorg/sinject?info=devDependencies)|a dependency injection tool supporting Cycle's circular dependencies (jun 2015) |10 ★|
 |[cyclejs-group](https://github.com/erykpiast/cyclejs-group)|[![Dependency Status](https://david-dm.org/erykpiast/cyclejs-group.svg)](https://david-dm.org/erykpiast/cyclejs-group)|[![devDependency Status](https://david-dm.org/erykpiast/cyclejs-group/dev-status.svg)](https://david-dm.org/erykpiast/cyclejs-group?info=devDependencies)|Utility for CycleJS framework for reducing boilerplate when creating groups of streams (jul 2015) (|19 ★|
-|[cyclejs-wc](https://github.com/erykpiast/cyclejs-wc)|[![Dependency Status](https://david-dm.org/erykpiast/cyclejs-wc.svg)](https://david-dm.org/erykpiast/cyclejs-wc)|[![devDependency Status](https://david-dm.org/erykpiast/cyclejs-wc/dev-status.svg)](https://david-dm.org/erykpiast/cyclejs-wc?info=devDependencies)|Utility for creating Web Components based on Cycle.js (jul 2015)|1 ★|
-|[hyperscript-helpers](https://github.com/ohanhi/hyperscript-helpers)|[![Dependency Status](https://david-dm.org/ohanhi/hyperscript-helpers.svg)](https://david-dm.org/ohanhi/hyperscript-helpers)|[![devDependency Status](https://david-dm.org/ohanhi/hyperscript-helpers/dev-status.svg)](https://david-dm.org/ohanhi/hyperscript-helpers?info=devDependencies)|elm-html inspired helpers for writing hyperscript or virtual-hyperscript (nov 2016)|270 ★  |
-|[cycle-react](https://github.com/pH200/cycle-react)|[![Dependency Status](https://david-dm.org/pH200/cycle-react.svg)](https://david-dm.org/pH200/cycle-react)|[![devDependency Status](https://david-dm.org/pH200/cycle-react/dev-status.svg)](https://david-dm.org/pH200/cycle-react?info=devDependencies)|use React instead of virtual-dom with a Cycle-like API (dec 2015)|264 ★  |
-|[earlhyperscript](https://github.com/MadcapJake/earl-hyperscript)|[![Dependency Status](https://david-dm.org/MadcapJake/earl-hyperscript.svg)](https://david-dm.org/MadcapJake/earl-hyperscript)|[![devDependency Status](https://david-dm.org/MadcapJake/earl-hyperscript/dev-status.svg)](https://david-dm.org/MadcapJake/earl-hyperscript?info=devDependencies)|A helper function and macro for using Earl Grey's [document-building syntax](https://breuleux.github.io/earl-grey/doc.html#documentbuildingsyntax) with Cycle.js (jul 2015)|2 ★|
-|[cycle-gear](https://github.com/WorldMaker/cycle-gear)|[![Dependency Status](https://david-dm.org/WorldMaker/cycle-gear.svg)](https://david-dm.org/WorldMaker/cycle-gear)|[![devDependency Status](https://david-dm.org/WorldMaker/cycle-gear/dev-status.svg)](https://david-dm.org/WorldMaker/cycle-gear?info=devDependencies)|A main function factory for Cycle based upon a formalization of Cycle's MVI pattern (jan 2017)|1 ★|
+
+#### UI/UX
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
 |[cyclejs-sortable](https://github.com/cyclejs-community/cyclejs-sortable)|[![Dependency Status](https://david-dm.org/cyclejs-community/cyclejs-sortable.svg)](https://david-dm.org/cyclejs-community/cyclejs-sortable)|[![devDependency Status](https://david-dm.org/cyclejs-community/cyclejs-sortable/dev-status.svg)](https://david-dm.org/cyclejs-community/cyclejs-sortable?info=devDependencies)|Make everything sortable via drag and drop in only one line of code (nov 2016)|5 ★|
+
+#### Web components
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cyclejs-wc](https://github.com/erykpiast/cyclejs-wc)|[![Dependency Status](https://david-dm.org/erykpiast/cyclejs-wc.svg)](https://david-dm.org/erykpiast/cyclejs-wc)|[![devDependency Status](https://david-dm.org/erykpiast/cyclejs-wc/dev-status.svg)](https://david-dm.org/erykpiast/cyclejs-wc?info=devDependencies)|Utility for creating Web Components based on Cycle.js (jul 2015)|1 ★|
+|[cycle-custom-elementify](https://github.com/staltz/cycle-custom-elementify/)|[![Dependency Status](https://github.com/staltz/cycle-custom-elementify/cycle-custom-elementify.svg)](https://github.com/staltz/cycle-custom-elementify/cycle-custom-elementify)|[![devDependency Status](https://github.com/staltz/cycle-custom-elementify/dev-status.svg)](https://github.com/staltz/cycle-custom-elementify/?info=devDependencies)|Utility for creating Custom Elements (v0/1) based on Cycle.js (sep 2016)|1 ★|
+
+
+#### Testing
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[chai-virtual-dom](https://github.com/staltz/chai-virtual-dom)|[![Dependency Status](https://david-dm.org/staltz/chai-virtual-dom.svg)](https://david-dm.org/staltz/chai-virtual-dom)|[![devDependency Status](https://david-dm.org/staltz/chai-virtual-dom/dev-status.svg)](https://david-dm.org/staltz/chai-virtual-dom?info=devDependencies)|Chai assertion helpers to test virtual-dom VTrees (sep 2015)|22 ★|
+
+
+#### Hyperscript (render)
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cycle-react](https://github.com/pH200/cycle-react)|[![Dependency Status](https://david-dm.org/pH200/cycle-react.svg)](https://david-dm.org/pH200/cycle-react)|[![devDependency Status](https://david-dm.org/pH200/cycle-react/dev-status.svg)](https://david-dm.org/pH200/cycle-react?info=devDependencies)|use React instead of virtual-dom with a Cycle-like API (dec 2015)|264 ★  |
+
+|[earlhyperscript](https://github.com/MadcapJake/earl-hyperscript)|[![Dependency Status](https://david-dm.org/MadcapJake/earl-hyperscript.svg)](https://david-dm.org/MadcapJake/earl-hyperscript)|[![devDependency Status](https://david-dm.org/MadcapJake/earl-hyperscript/dev-status.svg)](https://david-dm.org/MadcapJake/earl-hyperscript?info=devDependencies)|A helper function and macro for using Earl Grey's [document-building syntax](https://breuleux.github.io/earl-grey/doc.html#documentbuildingsyntax) with Cycle.js (jul 2015)|2 ★|
+
+|[hyperscript-helpers](https://github.com/ohanhi/hyperscript-helpers)|[![Dependency Status](https://david-dm.org/ohanhi/hyperscript-helpers.svg)](https://david-dm.org/ohanhi/hyperscript-helpers)|[![devDependency Status](https://david-dm.org/ohanhi/hyperscript-helpers/dev-status.svg)](https://david-dm.org/ohanhi/hyperscript-helpers?info=devDependencies)|elm-html inspired helpers for writing hyperscript or virtual-hyperscript (nov 2016)|270 ★  |
+
+#### Authentication
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
 |[cyclejs-auth0](https://github.com/atomrc/cyclejs-auth0)|[![Dependency Status](https://david-dm.org/atomrc/cyclejs-auth0.svg)](https://david-dm.org/atomrc/cyclejs-auth0)|[![devDependency Status](https://david-dm.org/atomrc/cyclejs-auth0/dev-status.svg)](https://david-dm.org/atomrc/cyclejs-auth0?info=devDependencies)|Everything you need to start playing with Auth0 on your Cyclejs app (Driver + component) (feb 2017)|13 ★|
+
+#### Higher level abstractions
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cycle-gear](https://github.com/WorldMaker/cycle-gear)|[![Dependency Status](https://david-dm.org/WorldMaker/cycle-gear.svg)](https://david-dm.org/WorldMaker/cycle-gear)|[![devDependency Status](https://david-dm.org/WorldMaker/cycle-gear/dev-status.svg)](https://david-dm.org/WorldMaker/cycle-gear?info=devDependencies)|A main function factory for Cycle based upon a formalization of Cycle's MVI pattern (jan 2017)|1 ★|
 
 ### Boilerplates
 
 | Name | Dependencies  | DevDependencies | Description | ★ |
 |------|-------------- |-----------------|-------------|---|
-|[cyclejs-starter](https://github.com/andreloureiro/cyclejs-starter)|[![Dependency Status](https://david-dm.org/andreloureiro/cyclejs-starter.svg)](https://david-dm.org/andreloureiro/cyclejs-starter)|[![devDependency Status](https://david-dm.org/andreloureiro/cyclejs-starter/dev-status.svg)](https://david-dm.org/andreloureiro/cyclejs-starter?info=devDependencies)|Cycle.js starter template with ES6 and Livereload (jan 2017)|37 ★|
 |[generator-cyclejs](https://github.com/Frikki/generator-cyclejs)|[![Dependency Status](https://david-dm.org/Frikki/generator-cyclejs.svg)](https://david-dm.org/Frikki/generator-cyclejs)|[![devDependency Status](https://david-dm.org/Frikki/generator-cyclejs/dev-status.svg)](https://david-dm.org/Frikki/generator-cyclejs?info=devDependencies)|Scaffold out a Cycle.js Nested Dialogue module using Yeoman (sep 2015)|1 ★|
 |[cycle-bp](https://github.com/adicirstei/cycle-bp)|[![Dependency Status](https://david-dm.org/adicirstei/cycle-bp.svg)](https://david-dm.org/adicirstei/cycle-bp)|[![devDependency Status](https://david-dm.org/adicirstei/cycle-bp/dev-status.svg)](https://david-dm.org/adicirstei/cycle-bp?info=devDependencies)|Boilerplate template for building Cycle.js apps (oct 2015)|5 ★|
 |[cyc](https://github.com/edge/cyc)|[![Dependency Status](https://david-dm.org/edge/cyc.svg)](https://david-dm.org/edge/cyc)|[![devDependency Status](https://david-dm.org/edge/cyc/dev-status.svg)](https://david-dm.org/edge/cyc?info=devDependencies)|Scaffold an isomorphic Cycle.js app in seconds (oct 2016)|130 ★  |
 |[cycle-webpack-boilerplate](https://github.com/Cmdv/cycle-webpack-boilerplate)|[![Dependency Status](https://david-dm.org/Cmdv/cycle-webpack-boilerplate.svg)](https://david-dm.org/Cmdv/cycle-webpack-boilerplate)|[![devDependency Status](https://david-dm.org/Cmdv/cycle-webpack-boilerplate/dev-status.svg)](https://david-dm.org/Cmdv/cycle-webpack-boilerplate?info=devDependencies)|Cycle app with routing, state handling and tests (dec 2017)|78 ★|
+
+#### Hot/live reload
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[cyclejs-starter](https://github.com/andreloureiro/cyclejs-starter)|[![Dependency Status](https://david-dm.org/andreloureiro/cyclejs-starter.svg)](https://david-dm.org/andreloureiro/cyclejs-starter)|[![devDependency Status](https://david-dm.org/andreloureiro/cyclejs-starter/dev-status.svg)](https://david-dm.org/andreloureiro/cyclejs-starter?info=devDependencies)|Cycle.js starter template with ES6 and Livereload (jan 2017)|37 ★|
+
 |[cycle-hot-reloading-example](https://github.com/Widdershin/cycle-hot-reloading-example)|[![Dependency Status](https://david-dm.org/Widdershin/cycle-hot-reloading-example.svg)](https://david-dm.org/Widdershin/cycle-hot-reloading-example)|[![devDependency Status](https://david-dm.org/Widdershin/cycle-hot-reloading-example/dev-status.svg)](https://david-dm.org/Widdershin/cycle-hot-reloading-example?info=devDependencies)|A Cycle.js starter project with hot reloading using browserify-hmr (mar 2016)|25 ★|
 |[cycle-hmr-example](https://github.com/mciparelli/cycle-hmr-example)|[![Dependency Status](https://david-dm.org/mciparelli/cycle-hmr-example.svg)](https://david-dm.org/mciparelli/cycle-hmr-example)|[![devDependency Status](https://david-dm.org/mciparelli/cycle-hmr-example/dev-status.svg)](https://david-dm.org/mciparelli/cycle-hmr-example?info=devDependencies)|A Cycle.js starter project using browserify and cycle-hmr (mar 2016)|0 ★|
-|[typescript-starter-cycle](https://github.com/cyclejs-community/typescript-starter-cycle)|[![Dependency Status](https://david-dm.org/cyclejs-community/typescript-starter-cycle.svg)](https://david-dm.org/cyclejs-community/typescript-starter-cycle)|[![devDependency Status](https://david-dm.org/cyclejs-community/typescript-starter-cycle/dev-status.svg)](https://david-dm.org/cyclejs-community/typescript-starter-cycle?info=devDependencies)|A simple project for getting started with TypeScript in cycle.js, using Webpack. Has settings for Visual Studio Code as candy (oct 2016)|12 ★|
+
+#### Server
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
 |[hapi-cycle](https://github.com/wyqydsyq/hapi-cycle)|[![Dependency Status](https://david-dm.org/wyqydsyq/hapi-cycle.svg)](https://david-dm.org/wyqydsyq/hapi-cycle)|[![devDependency Status](https://david-dm.org/wyqydsyq/hapi-cycle/dev-status.svg)](https://david-dm.org/wyqydsyq/hapi-cycle?info=devDependencies)|A boilerplate isomorphic Cycle app running on a Hapi server with a simple CRUD skeleton to get you started (oct 2016)|0 ★|
+
+
+#### TypeScript
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[typescript-starter-cycle](https://github.com/cyclejs-community/typescript-starter-cycle)|[![Dependency Status](https://david-dm.org/cyclejs-community/typescript-starter-cycle.svg)](https://david-dm.org/cyclejs-community/typescript-starter-cycle)|[![devDependency Status](https://david-dm.org/cyclejs-community/typescript-starter-cycle/dev-status.svg)](https://david-dm.org/cyclejs-community/typescript-starter-cycle?info=devDependencies)|A simple project for getting started with TypeScript in cycle.js, using Webpack. Has settings for Visual Studio Code as candy (oct 2016)|12 ★|
 
 ### Testing
 
