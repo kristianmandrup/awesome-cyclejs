@@ -5,9 +5,17 @@ A collection of awesome Cycle.js tools, resources, videos and shiny things.
 - [Learn](#learn)
   - [Documentation](#documentation)
   - [Tutorials](#tutorials)
+  - [Tutorial video series](#tutorial-video-series)
   - [Videos](#videos)
+    - [2017](#2017)
+    - [2016](#2017)
+    - [2015](#2015)
+  - [Cycle conf](#cycle-conf)
   - [Slides](#slides)
-  - [Example Applications](#example-applications)
+  - [Try Cycle online](#try-cycle-online)
+  - [Built with Cycle](#built-with-cycle)
+  - [Example collections](#example-collections)
+  - [Sample apps](#sample-apps)
 - [Tools](#tools)
   - [CLI](#cli)
 - [Libraries](#libraries)
@@ -19,6 +27,11 @@ A collection of awesome Cycle.js tools, resources, videos and shiny things.
 - [Community](#community)
 
 ---
+
+## Help!?
+
+* Ask on [Gitter chat](https://gitter.im/cyclejs/cycle-core)
+
 ## Learn
 
 ### Documentation
@@ -31,21 +44,42 @@ A collection of awesome Cycle.js tools, resources, videos and shiny things.
 * [Cycle.js: a reactive framework](https://lucamezzalira.com/2016/05/23/cycle-js-a-reactive-framework/) - Introduction to Cycle.js with real time data example.
 * [Building realtime applications with CycleJS and RxJS](https://blog.pusher.com/building-realtime-applications-with-cyclejs-and-rxjs/) - Learn how to build realtime applications with CycleJS and RxJS
 
+#### Tutorial video series
+
+* [Cycle.js Fundamentals](https://egghead.io/series/cycle-js-fundamentals) - Playlist at [egghead.io](https://egghead.io) (mar 2016)
+
 ### Videos
 
-* [What if the user was a function?](https://www.youtube.com/watch?v=1zj7M1LnJV4) - Presentation at JSConf BP2015 by [Andre Staltz](https://twitter.com/andrestaltz)
-* [Unidirectional data flow architectures](https://vimeo.com/168652278) - Presentation AtTheFrontend Conference by [Andre Staltz](https://twitter.com/andrestaltz)
-* [Cycle.js and functional reactive user interfaces](https://www.youtube.com/watch?v=uNZnftSksYg) - Presentation at ReactiveConf 2015 by [Andre Staltz](http://twitter.com/andrestaltz)
-* [Intro to Functional Reactive Programming with Cycle.js](https://www.youtube.com/watch?v=6_ETUyh0tns) - Presentation by [Nick Johnstone](https://twitter.com/widdnz)
-* [Cycle.js Fundamentals](https://egghead.io/series/cycle-js-fundamentals) - Playlist at [egghead.io](https://egghead.io)
-* [Cycle.js was built to solve problems](https://www.youtube.com/watch?v=Rj8ZTRVka4E) - by Andre Staltz at [Frontend.fi](http://frontend.fi/)
-* [Brains as Building Blocks](https://www.youtube.com/watch?v=1ToJ7cxb1R8) - by Andre Staltz at [CycleConf 2016](http://cycleconf.com/)
-* [Back to the Future, Hot reloading with Cycle.js](https://www.youtube.com/watch?v=rbrnyC5fXMM) - by Nick Johnstone at [CycleConf 2016](http://cycleconf.com/)
-* [From MVC to FRP](https://www.youtube.com/watch?v=-PCq4pXaDZw) - by Gleb Bahmutov at [CycleConf 2016](http://cycleconf.com/)
-* [Cycle.js on the bash side](https://www.youtube.com/watch?v=Rx5N99TQ52g) - by Hadrien de Cuzey at [CycleConf 2016](http://cycleconf.com/)
-* [Reactive Programming with Cycle.js](https://vimeo.com/175121069) - by Luca Mezzalira at [JSDay 2016](http://2016.jsday.it/)
-* [Learning how to ride: an introduction to Cycle.js](https://youtu.be/31URmaeNHSs) - by Fernando Macias Pereznieto at [JS Monthly London](http://www.meetup.com/js-monthly-london/)
-* [User Interfaces as Pure Functions of Time](https://www.youtube.com/watch?v=9BG0Y3C6WqM) - Lightning talk by [Thomas Belin](http://twitter.com/atomrc) at [dotjs 2016](http://dotjs.io/)
+#### 2017
+
+* [Introduction to Cycle.js](https://www.youtube.com/watch?v=UEqRzty0Cas) by [Marius Kazlauskas](https://twitter.com/ugibugivugi) at [Vilnius.js](https://www.meetup.com/Vilnius-js) (feb 2017) [slides](https://mariuskazlauskas.github.io/talks/cyclejs/intro#/)
+
+#### 2016
+
+* [User Interfaces as Pure Functions of Time](https://www.youtube.com/watch?v=9BG0Y3C6WqM) - Lightning talk by [Thomas Belin](http://twitter.com/atomrc) at [dotjs 2016](http://dotjs.io/) (dec 2016)
+* [See the data flowing through your app ](https://www.youtube.com/watch?v=R-GzJgEccEQ) by [Andre Staltz](https://twitter.com/andrestaltz) at [Full stack fest 2016](https://2016.fullstackfest.com/) (sep 2016)
+* [Reactive Programming with Cycle.js](https://vimeo.com/175121069) - by Luca Mezzalira at [JSDay 2016](http://2016.jsday.it/) (jun 2016)
+* [Unidirectional data flow architectures](https://vimeo.com/168652278) - Presentation AtTheFrontend Conference (may 2016) by [Andre Staltz](https://twitter.com/andrestaltz)
+(http://twitter.com/andrestaltz)
+* [Learning how to ride: an introduction to Cycle.js](https://youtu.be/31URmaeNHSs) - by Fernando Macias Pereznieto at [JS Monthly London](http://www.meetup.com/js-monthly-london/) (may 2016)
+* [Cycle.js was built to solve problems](https://www.youtube.com/watch?v=Rj8ZTRVka4E) - by Andre Staltz at [Frontend.fi](http://frontend.fi/) (mar 2016)
+
+#### 2015
+
+* [What if the user was a function?](https://www.youtube.com/watch?v=1zj7M1LnJV4) - Presentation at JSConf BP2015 (june 2015) by [Andre Staltz](https://twitter.com/andrestaltz)
+* [Cycle.js and functional reactive user interfaces](https://www.youtube.com/watch?v=uNZnftSksYg) - Presentation at ReactiveConf 2015 (nov 2015) by [Andre Staltz]
+* [Intro to Functional Reactive Programming with Cycle.js](https://www.youtube.com/watch?v=6_ETUyh0tns) - Presentation by [Nick Johnstone] (jul 2015) (https://twitter.com/widdnz)
+
+### Cycle Conf
+
+#### Cycle Conf 2016: Copenhagen
+
+[Cycle conf](http://cycleconf.com/)
+
+* [Back to the Future, Hot reloading with Cycle.js](https://www.youtube.com/watch?v=rbrnyC5fXMM) - by Nick Johnstone at [CycleConf 2016](http://cycleconf.com/) (apr 2016)
+* [From MVC to FRP](https://www.youtube.com/watch?v=-PCq4pXaDZw) - by Gleb Bahmutov at [CycleConf 2016](http://cycleconf.com/) (apr 2016)
+* [Cycle.js on the bash side](https://www.youtube.com/watch?v=Rx5N99TQ52g) - by Hadrien de Cuzey at [CycleConf 2016](http://cycleconf.com/) (apr 2016)
+* [Brains as Building Blocks](https://www.youtube.com/watch?v=1ToJ7cxb1R8) - by Andre Staltz at [CycleConf 2016](http://cycleconf.com/) (apr 2016)
 
 ### Slides
 
@@ -61,7 +95,7 @@ A collection of awesome Cycle.js tools, resources, videos and shiny things.
 |------|-------------- |-----------------|-------------|---|
 |[tricycle](https://github.com/Widdershin/tricycle)|[![Dependency Status](https://david-dm.org/Widdershin/tricycle.svg)](https://david-dm.org/Widdershin/tricycle)|[![devDependency Status](https://david-dm.org/Widdershin/tricycle/dev-status.svg)](https://david-dm.org/Widdershin/tricycle?info=devDependencies)|Scratchpad for trying out Cycle.js, relies on Ace Editor with Cycle|20 ★|
 
-### Showcase: Built with Cycle
+### Built with Cycle
 
 | Name | Dependencies  | DevDependencies | Description | ★ |
 |------|-------------- |-----------------|-------------|---|
@@ -96,9 +130,11 @@ A collection of awesome Cycle.js tools, resources, videos and shiny things.
 |[cycle-example-who-to-follow](https://github.com/kibin/cycle-example-who-to-follow)|[![Dependency Status](https://david-dm.org/kibin/cycle-example-who-to-follow.svg)](https://david-dm.org/kibin/cycle-example-who-to-follow)|[![devDependency Status](https://david-dm.org/kibin/cycle-example-who-to-follow/dev-status.svg)](https://david-dm.org/kibin/cycle-example-who-to-follow?info=devDependencies)|Small example partly implements twitter’s who to follow box using github api.|16 ★|
 |[draw-cycle](https://github.com/bahmutov/draw-cycle)|[![Dependency Status](https://david-dm.org/bahmutov/draw-cycle.svg)](https://david-dm.org/bahmutov/draw-cycle)|[![devDependency Status](https://david-dm.org/bahmutov/draw-cycle/dev-status.svg)](https://david-dm.org/bahmutov/draw-cycle?info=devDependencies)|Interactive visualization of counter application showing the data flow inside a MVI component [glebbahmutov.com/draw-cycle](https://glebbahmutov.com/draw-cycle/)|93 ★|
 |[pomocycle](https://github.com/andreloureiro/pomocycle)|[![Dependency Status](https://david-dm.org/andreloureiro/pomocycle.svg)](https://david-dm.org/andreloureiro/pomocycle)|[![devDependency Status](https://david-dm.org/andreloureiro/pomocycle/dev-status.svg)](https://david-dm.org/andreloureiro/pomocycle?info=devDependencies)|A simple Pomodoro timer.|10 ★|
-|[tams-tools](https://github.com/laszlokorte/tams-tools)|[![Dependency Status](https://david-dm.org/laszlokorte/tams-tools.svg)](https://david-dm.org/laszlokorte/tams-tools)|[![devDependency Status](https://david-dm.org/laszlokorte/tams-tools/dev-status.svg)](https://david-dm.org/laszlokorte/tams-tools?info=devDependencies)|A set of tools for teaching and learning computer science built with cycle.js.|18 ★|
 |[jsday-cycle-js](https://github.com/lucamezzalira/jsday-cycle-js)|[![Dependency Status](https://david-dm.org/lucamezzalira/jsday-cycle-js.svg)](https://david-dm.org/lucamezzalira/jsday-cycle-js)|[![devDependency Status](https://david-dm.org/lucamezzalira/jsday-cycle-js/dev-status.svg)](https://david-dm.org/lucamezzalira/jsday-cycle-js?info=devDependencies)|Reactive Live London Tube trains status example built with Cycle.js.|8 ★|
-|[cyclejs-hangman](https://github.com/class-ideas/cyclejs-hangman)|[![Dependency Status](https://david-dm.org/class-ideas/cyclejs-hangman.svg)](https://david-dm.org/class-ideas/cyclejs-hangman)|[![devDependency Status](https://david-dm.org/class-ideas/cyclejs-hangman/dev-status.svg)](https://david-dm.org/class-ideas/cyclejs-hangman?info=devDependencies)|A hangman game built with Cycle.js|7 ★|
+
+#### Teaching tools
+
+|[tams-tools](https://github.com/laszlokorte/tams-tools)|[![Dependency Status](https://david-dm.org/laszlokorte/tams-tools.svg)](https://david-dm.org/laszlokorte/tams-tools)|[![devDependency Status](https://david-dm.org/laszlokorte/tams-tools/dev-status.svg)](https://david-dm.org/laszlokorte/tams-tools?info=devDependencies)|A set of tools for teaching and learning computer science built with cycle.js.|18 ★|
 
 #### Games & Graphics
 
@@ -107,6 +143,7 @@ A collection of awesome Cycle.js tools, resources, videos and shiny things.
 |[graafi](https://github.com/phadej/graafi)|[![Dependency Status](https://david-dm.org/phadej/graafi.svg)](https://david-dm.org/phadej/graafi)|[![devDependency Status](https://david-dm.org/phadej/graafi/dev-status.svg)](https://david-dm.org/phadej/graafi?info=devDependencies)|Cycle.js experiment with SVG and global undo/redo http://oleg.fi/graafi/|17 ★|
 |[cyclejs-fractals](https://github.com/wmaurer/cyclejs-fractals)|[![Dependency Status](https://david-dm.org/wmaurer/cyclejs-fractals.svg)](https://david-dm.org/wmaurer/cyclejs-fractals)|[![devDependency Status](https://david-dm.org/wmaurer/cyclejs-fractals/dev-status.svg)](https://david-dm.org/wmaurer/cyclejs-fractals?info=devDependencies)|Dancing pythagorean tree fractal : Animating 2048 SVG nodes.|  ★|
 |[tetris-cyclejs](https://github.com/ivan-kleshnin/tetris-game)|[![Dependency Status](https://david-dm.org/ivan-kleshnin/tetris-game.svg)](https://david-dm.org/ivan-kleshnin/tetris-game)|[![devDependency Status](https://david-dm.org/ivan-kleshnin/tetris-game/dev-status.svg)](https://david-dm.org/ivan-kleshnin/tetris-game?info=devDependencies)|Tetris game implemented in CycleJS, ES6|10 ★|
+|[cyclejs-hangman](https://github.com/class-ideas/cyclejs-hangman)|[![Dependency Status](https://david-dm.org/class-ideas/cyclejs-hangman.svg)](https://david-dm.org/class-ideas/cyclejs-hangman)|[![devDependency Status](https://david-dm.org/class-ideas/cyclejs-hangman/dev-status.svg)](https://david-dm.org/class-ideas/cyclejs-hangman?info=devDependencies)|A hangman game built with Cycle.js|7 ★|
 
 #### Desktop & Mobile apps
 
@@ -285,7 +322,7 @@ Drivers to work with external communication protocols (HTTP, Sockets etc.)
 |[cycle-hot-reloading-example](https://github.com/Widdershin/cycle-hot-reloading-example)|[![Dependency Status](https://david-dm.org/Widdershin/cycle-hot-reloading-example.svg)](https://david-dm.org/Widdershin/cycle-hot-reloading-example)|[![devDependency Status](https://david-dm.org/Widdershin/cycle-hot-reloading-example/dev-status.svg)](https://david-dm.org/Widdershin/cycle-hot-reloading-example?info=devDependencies)|A Cycle.js starter project with hot reloading using browserify-hmr (mar 2016)|25 ★|
 |[cycle-hmr-example](https://github.com/mciparelli/cycle-hmr-example)|[![Dependency Status](https://david-dm.org/mciparelli/cycle-hmr-example.svg)](https://david-dm.org/mciparelli/cycle-hmr-example)|[![devDependency Status](https://david-dm.org/mciparelli/cycle-hmr-example/dev-status.svg)](https://david-dm.org/mciparelli/cycle-hmr-example?info=devDependencies)|A Cycle.js starter project using browserify and cycle-hmr (mar 2016)|0 ★|
 
-#### Server
+#### with Web Server
 
 | Name | Dependencies  | DevDependencies | Description | ★ |
 |------|-------------- |-----------------|-------------|---|
@@ -319,6 +356,9 @@ Drivers to work with external communication protocols (HTTP, Sockets etc.)
 |[cyclejs-gravatar](https://github.com/mciparelli/cyclejs-gravatar)|[![Dependency Status](https://david-dm.org/mciparelli/cyclejs-gravatar.svg)](https://david-dm.org/mciparelli/cyclejs-gravatar)|[![devDependency Status](https://david-dm.org/mciparelli/cyclejs-gravatar/dev-status.svg)](https://david-dm.org/mciparelli/cyclejs-gravatar?info=devDependencies)|Cycle.js component for rendering a gravatar profile image.|0 ★|
 |[cyclejs-ace-editor](https://github.com/tommy-the-runner/cyclejs-ace-editor)|[![Dependency Status](https://david-dm.org/tommy-the-runner/cyclejs-ace-editor.svg)](https://david-dm.org/tommy-the-runner/cyclejs-ace-editor)|[![devDependency Status](https://david-dm.org/tommy-the-runner/cyclejs-ace-editor/dev-status.svg)](https://david-dm.org/tommy-the-runner/cyclejs-ace-editor?info=devDependencies)|Cycle.js intergration with Ace Editor using [brace](https://github.com/thlorenz/brace). Check an example [here](https://tommy-the-runner.github.io/cyclejs-ace-editor/).|0 ★|
 |[cycle-color-picker](https://github.com/raquelxmoss/cycle-color-picker)|[![Dependency Status](https://david-dm.org/raquelxmoss/cycle-color-picker.svg)](https://david-dm.org/raquelxmoss/cycle-color-picker)|[![devDependency Status](https://david-dm.org/raquelxmoss/cycle-color-picker/dev-status.svg)](https://david-dm.org/raquelxmoss/cycle-color-picker?info=devDependencies)|A Color Picker component for Cycle.js. [Check out the example](https://raquelxmoss.github.io/cycle-color-picker).|  ★|
+
+#### Graphics
+
 |[cycle-svg-pan-and-zoom](https://github.com/cyclejs-community/cycle-svg-pan-and-zoom)|[![Dependency Status](https://david-dm.org/cyclejs-community/cycle-svg-pan-and-zoom.svg)](https://david-dm.org/cyclejs-community/cycle-svg-pan-and-zoom)|[![devDependency Status](https://david-dm.org/cyclejs-community/cycle-svg-pan-and-zoom/dev-status.svg)](https://david-dm.org/cyclejs-community/cycle-svg-pan-and-zoom?info=devDependencies)|A Google Maps style SVG pan and zoom component for Cycle.js|  ★|
 
 ## Community
