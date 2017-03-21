@@ -168,6 +168,7 @@ A collection of awesome Cycle.js tools, resources, videos and shiny things.
 |[cycle-gun](https://github.com/JuniperChicago/cycle-gun)|[![Dependency Status](https://david-dm.org/JuniperChicago/cycle-gun.svg)](https://david-dm.org/JuniperChicago/cycle-gun)|[![devDependency Status](https://david-dm.org/JuniperChicago/cycle-gun/dev-status.svg)](https://david-dm.org/JuniperChicago/cycle-gun?info=devDependencies)|A basic Cycle.js driver wrapping a gun.js instance allowing graph storage and p2p sync. (fresh)|12  ★|
 |[cycle-deepstream](https://github.com/EnigmaCurry/cycle-deepstream)|[![Dependency Status](https://david-dm.org/EnigmaCurry/cycle-deepstream.svg)](https://david-dm.org/EnigmaCurry/cycle-deepstream)|[![devDependency Status](https://david-dm.org/EnigmaCurry/cycle-deepstream/dev-status.svg)](https://david-dm.org/EnigmaCurry/cycle-deepstream?info=devDependencies)|A Cycle.js driver for [deepstream.io](https://deepstream.io) (fresh)|3 ★|
 |[cycle-firebase](https://github.com/dralletje/cycle-firebase)|[![Dependency Status](https://david-dm.org/dralletje/cycle-firebase.svg)](https://david-dm.org/dralletje/cycle-firebase)|[![devDependency Status](https://david-dm.org/dralletje/cycle-firebase/dev-status.svg)](https://david-dm.org/dralletje/cycle-firebase?info=devDependencies)|A Cycle.js Driver for Firebase (mar 2016)|17 ★|
+[cycle-graphql-driver](https://github.com/fiatjaf/cycle-graphql-driver)|[![Dependency Status](https://david-dm.org/fiatjaf/cycle-graphql-driver.svg)](https://david-dm.org/fiatjaf/cycle-graphql-driver)|[![devDependency Status](https://david-dm.org/fiatjaf/cycle-graphql-driver/dev-status.svg)](https://david-dm.org/fiatjaf/cycle-graphql-driver?info=devDependencies)|A Cycle.js Driver for GraphQL using most.js (dec 2016)|5 ★|
 
 #### Communication/protocols
 
@@ -238,13 +239,11 @@ Drivers to work with external communication protocols (HTTP, Sockets etc.)
 |[cyclejs-wc](https://github.com/erykpiast/cyclejs-wc)|[![Dependency Status](https://david-dm.org/erykpiast/cyclejs-wc.svg)](https://david-dm.org/erykpiast/cyclejs-wc)|[![devDependency Status](https://david-dm.org/erykpiast/cyclejs-wc/dev-status.svg)](https://david-dm.org/erykpiast/cyclejs-wc?info=devDependencies)|Utility for creating Web Components based on Cycle.js (jul 2015)|1 ★|
 |[cycle-custom-elementify](https://github.com/staltz/cycle-custom-elementify/)|[![Dependency Status](https://github.com/staltz/cycle-custom-elementify/cycle-custom-elementify.svg)](https://github.com/staltz/cycle-custom-elementify/cycle-custom-elementify)|[![devDependency Status](https://github.com/staltz/cycle-custom-elementify/dev-status.svg)](https://github.com/staltz/cycle-custom-elementify/?info=devDependencies)|Utility for creating Custom Elements (v0/1) based on Cycle.js (sep 2016)|1 ★|
 
-
 #### Testing
 
 | Name | Dependencies  | DevDependencies | Description | ★ |
 |------|-------------- |-----------------|-------------|---|
 |[chai-virtual-dom](https://github.com/staltz/chai-virtual-dom)|[![Dependency Status](https://david-dm.org/staltz/chai-virtual-dom.svg)](https://david-dm.org/staltz/chai-virtual-dom)|[![devDependency Status](https://david-dm.org/staltz/chai-virtual-dom/dev-status.svg)](https://david-dm.org/staltz/chai-virtual-dom?info=devDependencies)|Chai assertion helpers to test virtual-dom VTrees (sep 2015)|22 ★|
-
 
 #### Hyperscript (render)
 
