@@ -55,32 +55,64 @@ A collection of awesome Cycle.js tools, resources, videos and shiny things.
 * [Cycle.js - building apps with streams only] (http://lmatteis.github.io/cyclejs-slides/keynote/index.html) - by Luca Matteis
 * [Functional Reactive Programming with Cycle.js](https://slides.com/artfuldev/frp-with-cycle-js) - by Sudarsan Balaji
 
-### Example Applications
+### Try Cycle online
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[tricycle](https://github.com/Widdershin/tricycle)|[![Dependency Status](https://david-dm.org/Widdershin/tricycle.svg)](https://david-dm.org/Widdershin/tricycle)|[![devDependency Status](https://david-dm.org/Widdershin/tricycle/dev-status.svg)](https://david-dm.org/Widdershin/tricycle?info=devDependencies)|Scratchpad for trying out Cycle.js, relies on Ace Editor with Cycle|20 ★|
+
+### Showcase: Built with Cycle
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[built-with-cycle](https://github.com/cyclejs-community/built-with-cycle)|[![Dependency Status](https://david-dm.org/cyclejs-community/built-with-cycle.svg)](https://david-dm.org/cyclejs-community/built-with-cycle)|[![devDependency Status](https://david-dm.org/cyclejs-community/built-with-cycle/dev-status.svg)](https://david-dm.org/cyclejs-community/built-with-cycle?info=devDependencies)|[A website](http://cyclejs-community.github.io/built-with-cycle) to showcase the cool projects built with Cycle.js|4 ★|
+
+### Example collections
 
 | Name | Dependencies  | DevDependencies | Description | ★ |
 |------|-------------- |-----------------|-------------|---|
 |[cycle-examples](https://github.com/cyclejs/examples)|[![Dependency Status](https://david-dm.org/cyclejs/examples.svg)](https://david-dm.org/cyclejs/examples)|[![devDependency Status](https://david-dm.org/cyclejs/examples/dev-status.svg)](https://david-dm.org/cyclejs/examples?info=devDependencies)|Official collection of small Cycle.js examples|180 ★  |
-|[tricycle](https://github.com/Widdershin/tricycle)|[![Dependency Status](https://david-dm.org/Widdershin/tricycle.svg)](https://david-dm.org/Widdershin/tricycle)|[![devDependency Status](https://david-dm.org/Widdershin/tricycle/dev-status.svg)](https://david-dm.org/Widdershin/tricycle?info=devDependencies)|Scratchpad for trying out Cycle.js, relies on Ace Editor with Cycle|20 ★|
-|[todomvp](https://github.com/cgeorg/todomvp)|[![Dependency Status](https://david-dm.org/cgeorg/todomvp.svg)](https://david-dm.org/cgeorg/todomvp)|[![devDependency Status](https://david-dm.org/cgeorg/todomvp/dev-status.svg)](https://david-dm.org/cgeorg/todomvp?info=devDependencies)|Minimum Viable Pizza, an example webapp written in Cycle.js|18 ★|
 |[cyclejs-examples](https://github.com/erykpiast/cyclejs-examples)|[![Dependency Status](https://david-dm.org/erykpiast/cyclejs-examples.svg)](https://david-dm.org/erykpiast/cyclejs-examples)|[![devDependency Status](https://david-dm.org/erykpiast/cyclejs-examples/dev-status.svg)](https://david-dm.org/erykpiast/cyclejs-examples?info=devDependencies)|Example web applications built with Cycle.js.|8 ★|
-|[trends-cycle](https://github.com/grozen/trends-cycle)|[![Dependency Status](https://david-dm.org/grozen/trends-cycle.svg)](https://david-dm.org/grozen/trends-cycle)|[![devDependency Status](https://david-dm.org/grozen/trends-cycle/dev-status.svg)](https://david-dm.org/grozen/trends-cycle?info=devDependencies)|Slack trend searching written in Cycle.js|3 ★|
 |[cyclejs-examples](https://github.com/ivan-kleshnin/cyclejs-examples)|[![Dependency Status](https://david-dm.org/ivan-kleshnin/cyclejs-examples.svg)](https://david-dm.org/ivan-kleshnin/cyclejs-examples)|[![devDependency Status](https://david-dm.org/ivan-kleshnin/cyclejs-examples/dev-status.svg)](https://david-dm.org/ivan-kleshnin/cyclejs-examples?info=devDependencies)|Collection of CycleJS examples, ES6.|98 ★|
-|[tetris-cyclejs](https://github.com/ivan-kleshnin/tetris-game)|[![Dependency Status](https://david-dm.org/ivan-kleshnin/tetris-game.svg)](https://david-dm.org/ivan-kleshnin/tetris-game)|[![devDependency Status](https://david-dm.org/ivan-kleshnin/tetris-game/dev-status.svg)](https://david-dm.org/ivan-kleshnin/tetris-game?info=devDependencies)|Tetris game implemented in CycleJS, ES6|10 ★|
-|[graafi](https://github.com/phadej/graafi)|[![Dependency Status](https://david-dm.org/phadej/graafi.svg)](https://david-dm.org/phadej/graafi)|[![devDependency Status](https://david-dm.org/phadej/graafi/dev-status.svg)](https://david-dm.org/phadej/graafi?info=devDependencies)|Cycle.js experiment with SVG and global undo/redo http://oleg.fi/graafi/|17 ★|
+|[cycle-snabbdom-examples](https://github.com/SkaterDad/cycle-snabbdom-examples)|[![Dependency Status](https://david-dm.org/SkaterDad/cycle-snabbdom-examples.svg)](https://david-dm.org/SkaterDad/cycle-snabbdom-examples)|[![devDependency Status](https://david-dm.org/SkaterDad/cycle-snabbdom-examples/dev-status.svg)](https://david-dm.org/SkaterDad/cycle-snabbdom-examples?info=devDependencies)|Examples of nested components, using snabbdom-specific animations.|6 ★|
+
+### Sample Apps
+
+#### Todo Lists
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[todomvp](https://github.com/cgeorg/todomvp)|[![Dependency Status](https://david-dm.org/cgeorg/todomvp.svg)](https://david-dm.org/cgeorg/todomvp)|[![devDependency Status](https://david-dm.org/cgeorg/todomvp/dev-status.svg)](https://david-dm.org/cgeorg/todomvp?info=devDependencies)|Minimum Viable Pizza, an example webapp written in Cycle.js|18 ★|
+|[cycle-todolist](https://github.com/foxdonut/cycle-todolist)|[![Dependency Status](https://david-dm.org/foxdonut/cycle-todolist.svg)](https://david-dm.org/foxdonut/cycle-todolist)|[![devDependency Status](https://david-dm.org/foxdonut/cycle-todolist/dev-status.svg)](https://david-dm.org/foxdonut/cycle-todolist?info=devDependencies)|demonstrates a simple Cycle.js TODO list app with CRUD.|10 ★|
+
+#### Misc
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[trends-cycle](https://github.com/grozen/trends-cycle)|[![Dependency Status](https://david-dm.org/grozen/trends-cycle.svg)](https://david-dm.org/grozen/trends-cycle)|[![devDependency Status](https://david-dm.org/grozen/trends-cycle/dev-status.svg)](https://david-dm.org/grozen/trends-cycle?info=devDependencies)|Slack trend searching written in Cycle.js|3 ★|
 |[rxmarbles](https://github.com/staltz/rxmarbles)|[![Dependency Status](https://david-dm.org/staltz/rxmarbles.svg)](https://david-dm.org/staltz/rxmarbles)|[![devDependency Status](https://david-dm.org/staltz/rxmarbles/dev-status.svg)](https://david-dm.org/staltz/rxmarbles?info=devDependencies)|Interactive diagrams of Rx Observables http://rxmarbles.com/|1,323 ★  |
 |[magic-cart](https://github.com/MarcCloud/magic-cart)|[![Dependency Status](https://david-dm.org/MarcCloud/magic-cart.svg)](https://david-dm.org/MarcCloud/magic-cart)|[![devDependency Status](https://david-dm.org/MarcCloud/magic-cart/dev-status.svg)](https://david-dm.org/MarcCloud/magic-cart?info=devDependencies)|Simple shopping cart of a magic creatures store.|6 ★|
-|[cycle-todolist](https://github.com/foxdonut/cycle-todolist)|[![Dependency Status](https://david-dm.org/foxdonut/cycle-todolist.svg)](https://david-dm.org/foxdonut/cycle-todolist)|[![devDependency Status](https://david-dm.org/foxdonut/cycle-todolist/dev-status.svg)](https://david-dm.org/foxdonut/cycle-todolist?info=devDependencies)|demonstrates a simple Cycle.js TODO list app with CRUD.|10 ★|
 |[component-check](https://github.com/Mercateo/component-check)|[![Dependency Status](https://david-dm.org/Mercateo/component-check.svg)](https://david-dm.org/Mercateo/component-check)|[![devDependency Status](https://david-dm.org/Mercateo/component-check/dev-status.svg)](https://david-dm.org/Mercateo/component-check?info=devDependencies)|Common patterns for building Cycle.js components|437 ★  |
-|[electron-cycle-media](https://github.com/edge/electron-cycle-media)|[![Dependency Status](https://david-dm.org/edge/electron-cycle-media.svg)](https://david-dm.org/edge/electron-cycle-media)|[![devDependency Status](https://david-dm.org/edge/electron-cycle-media/dev-status.svg)](https://david-dm.org/edge/electron-cycle-media?info=devDependencies)|Media player written with Cycle.js and Electron.|26 ★|
 |[cycle-example-who-to-follow](https://github.com/kibin/cycle-example-who-to-follow)|[![Dependency Status](https://david-dm.org/kibin/cycle-example-who-to-follow.svg)](https://david-dm.org/kibin/cycle-example-who-to-follow)|[![devDependency Status](https://david-dm.org/kibin/cycle-example-who-to-follow/dev-status.svg)](https://david-dm.org/kibin/cycle-example-who-to-follow?info=devDependencies)|Small example partly implements twitter’s who to follow box using github api.|16 ★|
-|[cycle-snabbdom-examples](https://github.com/SkaterDad/cycle-snabbdom-examples)|[![Dependency Status](https://david-dm.org/SkaterDad/cycle-snabbdom-examples.svg)](https://david-dm.org/SkaterDad/cycle-snabbdom-examples)|[![devDependency Status](https://david-dm.org/SkaterDad/cycle-snabbdom-examples/dev-status.svg)](https://david-dm.org/SkaterDad/cycle-snabbdom-examples?info=devDependencies)|Examples of nested components, using snabbdom-specific animations.|6 ★|
 |[draw-cycle](https://github.com/bahmutov/draw-cycle)|[![Dependency Status](https://david-dm.org/bahmutov/draw-cycle.svg)](https://david-dm.org/bahmutov/draw-cycle)|[![devDependency Status](https://david-dm.org/bahmutov/draw-cycle/dev-status.svg)](https://david-dm.org/bahmutov/draw-cycle?info=devDependencies)|Interactive visualization of counter application showing the data flow inside a MVI component [glebbahmutov.com/draw-cycle](https://glebbahmutov.com/draw-cycle/)|93 ★|
 |[pomocycle](https://github.com/andreloureiro/pomocycle)|[![Dependency Status](https://david-dm.org/andreloureiro/pomocycle.svg)](https://david-dm.org/andreloureiro/pomocycle)|[![devDependency Status](https://david-dm.org/andreloureiro/pomocycle/dev-status.svg)](https://david-dm.org/andreloureiro/pomocycle?info=devDependencies)|A simple Pomodoro timer.|10 ★|
 |[tams-tools](https://github.com/laszlokorte/tams-tools)|[![Dependency Status](https://david-dm.org/laszlokorte/tams-tools.svg)](https://david-dm.org/laszlokorte/tams-tools)|[![devDependency Status](https://david-dm.org/laszlokorte/tams-tools/dev-status.svg)](https://david-dm.org/laszlokorte/tams-tools?info=devDependencies)|A set of tools for teaching and learning computer science built with cycle.js.|18 ★|
 |[jsday-cycle-js](https://github.com/lucamezzalira/jsday-cycle-js)|[![Dependency Status](https://david-dm.org/lucamezzalira/jsday-cycle-js.svg)](https://david-dm.org/lucamezzalira/jsday-cycle-js)|[![devDependency Status](https://david-dm.org/lucamezzalira/jsday-cycle-js/dev-status.svg)](https://david-dm.org/lucamezzalira/jsday-cycle-js?info=devDependencies)|Reactive Live London Tube trains status example built with Cycle.js.|8 ★|
-|[built-with-cycle](https://github.com/cyclejs-community/built-with-cycle)|[![Dependency Status](https://david-dm.org/cyclejs-community/built-with-cycle.svg)](https://david-dm.org/cyclejs-community/built-with-cycle)|[![devDependency Status](https://david-dm.org/cyclejs-community/built-with-cycle/dev-status.svg)](https://david-dm.org/cyclejs-community/built-with-cycle?info=devDependencies)|[A website](http://cyclejs-community.github.io/built-with-cycle) to showcase the cool projects built with Cycle.js|4 ★|
 |[cyclejs-hangman](https://github.com/class-ideas/cyclejs-hangman)|[![Dependency Status](https://david-dm.org/class-ideas/cyclejs-hangman.svg)](https://david-dm.org/class-ideas/cyclejs-hangman)|[![devDependency Status](https://david-dm.org/class-ideas/cyclejs-hangman/dev-status.svg)](https://david-dm.org/class-ideas/cyclejs-hangman?info=devDependencies)|A hangman game built with Cycle.js|7 ★|
+
+#### Games & Graphics
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[graafi](https://github.com/phadej/graafi)|[![Dependency Status](https://david-dm.org/phadej/graafi.svg)](https://david-dm.org/phadej/graafi)|[![devDependency Status](https://david-dm.org/phadej/graafi/dev-status.svg)](https://david-dm.org/phadej/graafi?info=devDependencies)|Cycle.js experiment with SVG and global undo/redo http://oleg.fi/graafi/|17 ★|
 |[cyclejs-fractals](https://github.com/wmaurer/cyclejs-fractals)|[![Dependency Status](https://david-dm.org/wmaurer/cyclejs-fractals.svg)](https://david-dm.org/wmaurer/cyclejs-fractals)|[![devDependency Status](https://david-dm.org/wmaurer/cyclejs-fractals/dev-status.svg)](https://david-dm.org/wmaurer/cyclejs-fractals?info=devDependencies)|Dancing pythagorean tree fractal : Animating 2048 SVG nodes.|  ★|
+|[tetris-cyclejs](https://github.com/ivan-kleshnin/tetris-game)|[![Dependency Status](https://david-dm.org/ivan-kleshnin/tetris-game.svg)](https://david-dm.org/ivan-kleshnin/tetris-game)|[![devDependency Status](https://david-dm.org/ivan-kleshnin/tetris-game/dev-status.svg)](https://david-dm.org/ivan-kleshnin/tetris-game?info=devDependencies)|Tetris game implemented in CycleJS, ES6|10 ★|
+
+#### Desktop & Mobile apps
+
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
+|[electron-cycle-media](https://github.com/edge/electron-cycle-media)|[![Dependency Status](https://david-dm.org/edge/electron-cycle-media.svg)](https://david-dm.org/edge/electron-cycle-media)|[![devDependency Status](https://david-dm.org/edge/electron-cycle-media/dev-status.svg)](https://david-dm.org/edge/electron-cycle-media?info=devDependencies)|Media player written with Cycle.js and Electron.|26 ★|
 
 ## Tools
 
