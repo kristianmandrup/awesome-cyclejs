@@ -215,7 +215,6 @@ Drivers to work with external communication protocols (HTTP, Sockets etc.)
 
 | Name | Dependencies  | DevDependencies | Description | ★ |
 |------|-------------- |-----------------|-------------|---|
-|[cycle-http](https://github.com/cyclejs/cyclejs/tree/master/http) |[![Dependency Status](https://david-dm.org/cyclejs/cyclejs/tree/master/http.svg)](https://david-dm.org/cyclejs/cyclejs/tree/master/http)|[![devDependency Status](https://david-dm.org/cyclejs/cyclejs/tree/master/http/dev-status.svg)](https://david-dm.org/cyclejs/cyclejs/tree/master/http?info=devDependencies)|A Cycle.js Driver for making HTTP requests, based on superagent. (core)|58 ★|
 |[cycle-fetch-driver](https://github.com/secobarbital/cycle-fetch-driver)|[![Dependency Status](https://david-dm.org/secobarbital/cycle-fetch-driver.svg)](https://david-dm.org/secobarbital/cycle-fetch-driver)|[![devDependency Status](https://david-dm.org/secobarbital/cycle-fetch-driver/dev-status.svg)](https://david-dm.org/secobarbital/cycle-fetch-driver?info=devDependencies)|A Cycle.js Driver for making HTTP requests, using the Fetch API. (oct 2015)|2 ★|
 |[cycle-fetcher-driver](https://github.com/r7kamura/cycle-fetcher-driver)|[![Dependency Status](https://david-dm.org/r7kamura/cycle-fetcher-driver.svg)](https://david-dm.org/r7kamura/cycle-fetcher-driver)|[![devDependency Status](https://david-dm.org/r7kamura/cycle-fetcher-driver/dev-status.svg)](https://david-dm.org/r7kamura/cycle-fetcher-driver?info=devDependencies)|A Cycle.js Driver for making HTTP requests using (oct 2015)[stackable-fetcher](https://github.com/r7kamura/stackable-fetcher).|13 ★|
 
@@ -274,7 +273,7 @@ Drivers to work with external communication protocols (HTTP, Sockets etc.)
 | Name | Dependencies  | DevDependencies | Description | ★ |
 |------|-------------- |-----------------|-------------|---|
 |[cyclejs-wc](https://github.com/erykpiast/cyclejs-wc)|[![Dependency Status](https://david-dm.org/erykpiast/cyclejs-wc.svg)](https://david-dm.org/erykpiast/cyclejs-wc)|[![devDependency Status](https://david-dm.org/erykpiast/cyclejs-wc/dev-status.svg)](https://david-dm.org/erykpiast/cyclejs-wc?info=devDependencies)|Utility for creating Web Components based on Cycle.js (jul 2015)|1 ★|
-|[cycle-custom-elementify](https://github.com/staltz/cycle-custom-elementify/)|[![Dependency Status](https://github.com/staltz/cycle-custom-elementify/cycle-custom-elementify.svg)](https://github.com/staltz/cycle-custom-elementify/cycle-custom-elementify)|[![devDependency Status](https://github.com/staltz/cycle-custom-elementify/dev-status.svg)](https://github.com/staltz/cycle-custom-elementify/?info=devDependencies)|Utility for creating Custom Elements (v0/1) based on Cycle.js (sep 2016)|1 ★|
+|[cycle-custom-elementify](https://github.com/staltz/cycle-custom-elementify/)|[![Dependency Status](https://david-dm.org/staltz/cycle-custom-elementify/cycle-custom-elementify.svg)](https://david-dm.org/staltz/cycle-custom-elementify/cycle-custom-elementify)|[![devDependency Status](https://david-dm.org/staltz/cycle-custom-elementify/dev-status.svg)](https://david-dm.org/staltz/cycle-custom-elementify/?info=devDependencies)|Utility for creating Custom Elements (v0/1) based on Cycle.js (sep 2016)|1 ★|
 
 #### Testing
 
@@ -287,9 +286,7 @@ Drivers to work with external communication protocols (HTTP, Sockets etc.)
 | Name | Dependencies  | DevDependencies | Description | ★ |
 |------|-------------- |-----------------|-------------|---|
 |[cycle-react](https://github.com/pH200/cycle-react)|[![Dependency Status](https://david-dm.org/pH200/cycle-react.svg)](https://david-dm.org/pH200/cycle-react)|[![devDependency Status](https://david-dm.org/pH200/cycle-react/dev-status.svg)](https://david-dm.org/pH200/cycle-react?info=devDependencies)|use React instead of virtual-dom with a Cycle-like API (dec 2015)|264 ★  |
-
 |[earlhyperscript](https://github.com/MadcapJake/earl-hyperscript)|[![Dependency Status](https://david-dm.org/MadcapJake/earl-hyperscript.svg)](https://david-dm.org/MadcapJake/earl-hyperscript)|[![devDependency Status](https://david-dm.org/MadcapJake/earl-hyperscript/dev-status.svg)](https://david-dm.org/MadcapJake/earl-hyperscript?info=devDependencies)|A helper function and macro for using Earl Grey's [document-building syntax](https://breuleux.github.io/earl-grey/doc.html#documentbuildingsyntax) with Cycle.js (jul 2015)|2 ★|
-
 |[hyperscript-helpers](https://github.com/ohanhi/hyperscript-helpers)|[![Dependency Status](https://david-dm.org/ohanhi/hyperscript-helpers.svg)](https://david-dm.org/ohanhi/hyperscript-helpers)|[![devDependency Status](https://david-dm.org/ohanhi/hyperscript-helpers/dev-status.svg)](https://david-dm.org/ohanhi/hyperscript-helpers?info=devDependencies)|elm-html inspired helpers for writing hyperscript or virtual-hyperscript (nov 2016)|270 ★  |
 
 #### Authentication
@@ -318,8 +315,7 @@ Drivers to work with external communication protocols (HTTP, Sockets etc.)
 | Name | Dependencies  | DevDependencies | Description | ★ |
 |------|-------------- |-----------------|-------------|---|
 |[cyclejs-starter](https://github.com/andreloureiro/cyclejs-starter)|[![Dependency Status](https://david-dm.org/andreloureiro/cyclejs-starter.svg)](https://david-dm.org/andreloureiro/cyclejs-starter)|[![devDependency Status](https://david-dm.org/andreloureiro/cyclejs-starter/dev-status.svg)](https://david-dm.org/andreloureiro/cyclejs-starter?info=devDependencies)|Cycle.js starter template with ES6 and Livereload (jan 2017)|37 ★|
-
-|[cycle-hot-reloading-example](https://github.com/Widdershin/cycle-hot-reloading-example)|[![Dependency Status](https://david-dm.org/Widdershin/cycle-hot-reloading-example.svg)](https://david-dm.org/Widdershin/cycle-hot-reloading-example)|[![devDependency Status](https://david-dm.org/Widdershin/cycle-hot-reloading-example/dev-status.svg)](https://david-dm.org/Widdershin/cycle-hot-reloading-example?info=devDependencies)|A Cycle.js starter project with hot reloading using browserify-hmr (mar 2016)|25 ★|
+|[cycle-hot-reloading-example(https://github.com/Widdershin/cycle-hot-reloading-example)|[![Dependency Status](https://david-dm.org/Widdershin/cycle-hot-reloading-example.svg)](https://david-dm.org/Widdershin/cycle-hot-reloading-example)|[![devDependency Status](https://david-dm.org/Widdershin/cycle-hot-reloading-example/dev-status.svg)](https://david-dm.org/Widdershin/cycle-hot-reloading-example?info=devDependencies)|A Cycle.js starter project with hot reloading using browserify-hmr (mar 2016)|25 ★|
 |[cycle-hmr-example](https://github.com/mciparelli/cycle-hmr-example)|[![Dependency Status](https://david-dm.org/mciparelli/cycle-hmr-example.svg)](https://david-dm.org/mciparelli/cycle-hmr-example)|[![devDependency Status](https://david-dm.org/mciparelli/cycle-hmr-example/dev-status.svg)](https://david-dm.org/mciparelli/cycle-hmr-example?info=devDependencies)|A Cycle.js starter project using browserify and cycle-hmr (mar 2016)|0 ★|
 
 #### with Web Server
@@ -359,6 +355,8 @@ Drivers to work with external communication protocols (HTTP, Sockets etc.)
 
 #### Graphics
 
+| Name | Dependencies  | DevDependencies | Description | ★ |
+|------|-------------- |-----------------|-------------|---|
 |[cycle-svg-pan-and-zoom](https://github.com/cyclejs-community/cycle-svg-pan-and-zoom)|[![Dependency Status](https://david-dm.org/cyclejs-community/cycle-svg-pan-and-zoom.svg)](https://david-dm.org/cyclejs-community/cycle-svg-pan-and-zoom)|[![devDependency Status](https://david-dm.org/cyclejs-community/cycle-svg-pan-and-zoom/dev-status.svg)](https://david-dm.org/cyclejs-community/cycle-svg-pan-and-zoom?info=devDependencies)|A Google Maps style SVG pan and zoom component for Cycle.js|  ★|
 
 ## Community
